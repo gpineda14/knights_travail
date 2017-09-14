@@ -1,5 +1,7 @@
 # Knights Travail
 
+I created a program that finds the shortest path given two [x, y] coordinates. The created the program as part of the Odin Project [curriculum](https://www.theodinproject.com/courses/ruby-programming/lessons/data-structures-and-algorithms?ref=lc-pb)
+
 ## What the program needs to do
 
 1. Search through all possible ways to get from one square to another (check)

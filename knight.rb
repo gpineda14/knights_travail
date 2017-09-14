@@ -13,7 +13,7 @@ class Knight
       position = queue.shift
       break if position.root == to
       visited << position
-      position.possible_moves.each { |node| visited << @board.board[node] if !visited.include?(@board.board[node]) }
+      position.possible_moves.each { |node| visited << @board.board[node] unless visited.include?(@board.board[node]) }
     end
     show_path(find_path(to, visited))
   end
